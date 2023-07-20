@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet">
     <title>1 task</title>
   </head>
   <body>
-    <input placeholder="Seconds" type="text" />
+    <div class="containerTimer">
+      <div class="time">
+        <span>hh:mm:ss</span>
+      </div>
+      
+      <div class="containerInput">
+        <input placeholder="Seconds" type="text" />
+        <button class="buttonAction">Start</button>
+      </div>
+      
+    </div>
+    
 
-    <button>Start</button>
-
-    <br />
-    <br />
-
-    <span>hh:mm:ss</span>
-
-    <script src="./index.js"></script>
+    <script defer src="./js/index.js"></script>
   </body>
 </html>
