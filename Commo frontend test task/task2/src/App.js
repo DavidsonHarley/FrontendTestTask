@@ -1,8 +1,9 @@
 import './App.css';
+import Wrapper from './components/Wrapper/Wrapper';
 
 function App() {
   return (
-    <div> privet</div>
+    <Wrapper />
   );
 }
 

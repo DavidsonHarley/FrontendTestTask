@@ -1,0 +1,15 @@
+.navBar{
+    display: flex;
+    width: 715.55px;
+    height: 26px;
+    justify-content: space-evenly;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #FAC422;
+}
