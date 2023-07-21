@@ -1,6 +1,7 @@
 .button{
     width: 203px;
     height: 70px;
+    border: none;
 }
 
 .primary{
@@ -19,7 +20,16 @@
     border: 1px solid #fff;
     font-family: 'Orbitron', sans-serif;
     background-color: #57B8FF;
-    border: none;
     font-size: 18px;
     line-height: 28px;
+}
+
+.primary:hover{
+    border: 1px solid #fff;
+    transform: translate(0, 0.25em);
+}
+
+.whiteeEdging:hover{
+    border: 1px solid #316a92;
+    transform: translate(0, 0.25em);
 }

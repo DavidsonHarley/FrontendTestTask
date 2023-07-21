@@ -13,7 +13,7 @@ export default function Header() {
       <div className={styles.containerActiv}>
         <Basket />
         <Button
-          appearance="whiteeEdging"
+	          appearance="whiteeEdging"
         >
           Contact Us
         </Button>

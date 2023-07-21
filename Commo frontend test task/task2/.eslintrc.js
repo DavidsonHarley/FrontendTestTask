@@ -26,5 +26,9 @@ module.exports = {
     'no-sequences': 0,
     'import/no-extraneous-dependencies': 0,
     'max-len': 0,
+    'no-tabs': 0,
+    'react/jsx-indent-props': [2, 'tab'],
+    'react/jsx-indent': [2, 2],
+    'no-mixed-spaces-and-tabs': 0,
   },
 };

@@ -7,11 +7,11 @@ export default function Button({
 }) {
   return (
     <button
-      type="submit"
-      className={cn(styles.button, {
-        [styles.primary]: appearance === 'primary',
-        [styles.whiteeEdging]: appearance === 'whiteeEdging',
-      })}
+	type="submit"
+	className={cn(styles.button, {
+	  [styles.primary]: appearance === 'primary',
+	  [styles.whiteeEdging]: appearance === 'whiteeEdging',
+	})}
     >
       {children}
     </button>
