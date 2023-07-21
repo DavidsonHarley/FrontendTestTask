@@ -6,12 +6,15 @@ import Button from '../../Button/Button';
 
 const textSidBar = [
   {
+    id: 1,
     text: 'FACEBOOK',
   },
   {
+    id: 2,
     text: 'INSTAGRAM',
   },
   {
+    id: 3,
     text: 'TWITCH',
   },
 
@@ -24,7 +27,7 @@ export default function Frame1() {
         <div className={styles.contentLeft}>
           <div className={styles.sideBar}>
             <p className={styles.rotate}>
-              {textSidBar.map((el) => <a className={styles.link} href="/">{el.text}</a>)}
+              {textSidBar.map((el) => <a key={el.id} className={styles.link} href="/">{el.text}</a>)}
             </p>
 
           </div>

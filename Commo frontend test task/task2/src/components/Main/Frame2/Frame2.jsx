@@ -21,8 +21,7 @@ export default function Frame2() {
 
         </div>
         <div className={styles.customize}>
-          Customize your
-          Own Character
+          Customize your Own Character
         </div>
         <div className={styles.text}>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.

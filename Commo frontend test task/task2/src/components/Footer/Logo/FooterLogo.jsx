@@ -8,7 +8,7 @@ export default function FooterLogo() {
       <img src={imgLogo} alt="logo" />
       <div className={styles.textFooter}>
         Lorem ipsum dolor amet, consectetur adipiscing elit.
-        Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non  .
+        Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non.
       </div>
 
     </div>

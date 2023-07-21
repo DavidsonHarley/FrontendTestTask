@@ -30,5 +30,7 @@ module.exports = {
     'react/jsx-indent-props': [2, 'tab'],
     'react/jsx-indent': [2, 2],
     'no-mixed-spaces-and-tabs': 0,
+    'react/no-array-index-key': 0,
+    'import/prefer-default-export': 'off',
   },
 };
