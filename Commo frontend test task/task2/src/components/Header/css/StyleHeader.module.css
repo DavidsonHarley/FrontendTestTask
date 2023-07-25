@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1320px;
+    height: 62px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.containerActiv{
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 62px;
+
+}
