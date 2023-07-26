@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <div className={styles.navBar}>
       {
-        navigation.map((el) => <a key={el.name} className={styles.link} href="/">{el.name}</a>)
+        navigation.map((el) => <p key={el.name} className={styles.link}>{el.name}</p>)
       }
     </div>
   );

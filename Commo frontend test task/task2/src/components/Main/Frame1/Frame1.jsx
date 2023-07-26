@@ -27,9 +27,8 @@ export default function Frame1() {
         <div className={styles.contentLeft}>
           <div className={styles.sideBar}>
             <p className={styles.rotate}>
-              {textSidBar.map((el) => <a key={el.id} className={styles.link} href="/">{el.text}</a>)}
+              {textSidBar.map((el) => <p key={el.id} className={styles.link}>{el.text}</p>)}
             </p>
-
           </div>
           <div className={styles.content}>
             <div className={styles.containerTitle}>
@@ -51,13 +50,12 @@ export default function Frame1() {
                 Explore More
               </Button>
               <div>
-                <a className={styles.contentLink} href="/">
+                <p className={styles.contentLink}>
                   View our team
-                </a>
+                </p>
               </div>
             </div>
           </div>
-
         </div>
       </div>
       <div className={styles.containerRight}>

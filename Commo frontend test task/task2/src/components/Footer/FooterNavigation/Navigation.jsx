@@ -46,13 +46,13 @@ export default function Navigation() {
         <div className={styles.title}>
           Menu Items
         </div>
-        {menuItems.map((el) => <a key={el.id} className={styles.link} href="/">{el.name}</a>)}
+        {menuItems.map((el) => <p key={el.id} className={styles.link}>{el.name}</p>)}
       </div>
       <div className={styles.itemsMenu}>
         <div className={styles.title}>
           Other Pages
         </div>
-        {otherPages.map((el) => <a key={el.id} className={styles.link} href="/">{el.name}</a>)}
+        {otherPages.map((el) => <p key={el.id} className={styles.link}>{el.name}</p>)}
       </div>
     </>
 

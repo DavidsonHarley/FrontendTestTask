@@ -11,10 +11,18 @@
 }
 
 .link{
+    margin: 0;
+    font-size: 14px;
     color: #999999;
-    text-decoration: none;
 }
 
 .link:hover{
     color: #FAC422;
+}
+
+@media screen and (max-width: 412px){
+    .itemsMenu{
+        margin-top: 40px;
+        padding-left: 60px
+    }
 }

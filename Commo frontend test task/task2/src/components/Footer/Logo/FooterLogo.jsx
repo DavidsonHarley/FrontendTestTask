@@ -10,8 +10,6 @@ export default function FooterLogo() {
         Lorem ipsum dolor amet, consectetur adipiscing elit.
         Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non.
       </div>
-
     </div>
-
   );
 }

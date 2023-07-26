@@ -10,7 +10,7 @@ export default function Frame2() {
   return (
     <div className={styles.containerFrame2}>
       <div className={styles.containerImgFrame2}>
-        <img src={imgFrame2} alt="img" />
+        <img className={styles.imgFrame2} src={imgFrame2} alt="img2" />
       </div>
       <div className={styles.contentFrame2}>
         <div className={styles.title}>

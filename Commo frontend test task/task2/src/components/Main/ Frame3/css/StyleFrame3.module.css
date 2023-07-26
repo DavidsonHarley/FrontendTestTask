@@ -110,3 +110,70 @@
     color: #FFFFFF;
     font-size: 23px;
 }
+
+@media screen and (max-width: 412px) {
+    .containerFrame3{
+        width: 400px;
+        height: 2300px;
+    }
+    .containerContent{
+        margin-left: 10px;
+        flex-direction: column;
+    }
+   
+    .containerTitle{
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    .containerTitleContent{
+        flex-direction: column;
+    }
+
+    .fireText{
+        margin-left: 30px;
+    }
+
+    .lacestNews{
+        width: 300px;
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .buttonContainer{
+        width: 340px;
+        margin-right: 0;
+        
+    }
+
+    .content1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .imgContent1{
+        width: 300px;
+    }
+
+    .date{
+        font-size: 13px;
+    }
+
+    .content1Text{
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .content2{
+        margin-left: 40px;
+        flex-direction: column;
+        width: 400px;
+        height: 2500px;
+    }
+
+}

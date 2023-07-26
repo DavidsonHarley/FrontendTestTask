@@ -46,7 +46,6 @@ export default function Frame3() {
               <div className={styles.textContent2}>{el.text}</div>
             </div>
           ))}
-
         </div>
       </div>
     </div>

@@ -12,3 +12,17 @@
     height: 317px;
     padding: 129px 60px 0 60px;
 }
+
+
+@media screen and (max-width: 412px) {
+    .footer{
+        height: 900px;
+    }
+    
+    .containerInfo{
+        padding-top: 80px;
+        padding-left: 80px;
+        flex-direction: column;
+    }
+    
+}
